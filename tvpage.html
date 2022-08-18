@@ -1,0 +1,978 @@
+<!doctype html>
+
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie DB | TV page</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- container starts here  -->
+  <div class="container tv-page">
+    <!-- header section starts here  -->
+    <header>
+      <div class="wrapper">
+        <h1>
+          <a href="homepage.html" title="Movie DB"><img src="assets/images/tmdb.svg" alt="MovieDB_logo"></a>
+        </h1>
+        <div class="search_ctn">
+          <div class="search_input">
+            <form action="search.html" method="get">
+              <input type="text" name="search" placeholder="Search">
+            </form>
+            <a href="#FIXME" title="Close">Close</a>
+          </div>
+          <ul>
+            <li>Search</li>
+          </ul>
+        </div>
+        <div class="menu">
+          <a href="#FIXME" title="Hamburger" class="hamburger">hamburger</a>
+          <nav>
+            <ul>
+              <li>
+                <a href="homepage.html" title="Movie" class="movie">Movie</a>
+              </li>
+              <li>
+                <a href="tvpage.html" title="TV" class="tv">TV</a>
+              </li>
+              <li class="logout">
+                <a href="index.html" title="Logout">Logout</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- header section ends here  -->
+    <!-- main starts here  -->
+    <main>
+      <!-- top rated tv section starts here  -->
+      <section class="toprated_tv">
+        <div class="wrapper">
+          <h2>top rated tv</h2>
+          <ul class="slider">
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+          </ul>
+          <div class="view_more">
+            <a href="viewmore.html?Top%20Rated%20Tv&tv&top_rated" title="View More" class="view_more_text">View More</a>
+          </div>
+        </div>
+      </section>
+      <!-- top rated tv section ends here  -->
+
+      <!-- most popular tv section starts here  -->
+      <section class="mostpopular_tv">
+        <div class="wrapper">
+          <h2>most popular tv</h2>
+          <ul class="slider">
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+          </ul>
+          <div class="view_more">
+            <a href="viewmore.html?Most%20Popular%20Tv&tv&popular" title="View More" class="view_more_text">View
+              More</a>
+          </div>
+        </div>
+      </section>
+      <!-- most popular tv section ends here  -->
+
+      <!-- on air tv section starts here  -->
+      <section class="on_air">
+        <div class="wrapper">
+          <h2>on air</h2>
+          <ul class="slider">
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+          </ul>
+          <div class="view_more">
+            <a href="viewmore.html?On%20Air%20Tv&tv&on_the_air" title="View More" class="view_more_text">View More</a>
+          </div>
+        </div>
+      </section>
+      <!-- on air tv section ends here  -->
+
+      <!-- airing today tv section starts here  -->
+      <section class="airing_today">
+        <div class="wrapper">
+          <h2>airing today</h2>
+          <ul class="slider">
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+          </ul>
+          <div class="view_more">
+            <a href="viewmore.html?Airing%20Today%20Tv&tv&airing_today" title="View More" class="view_more_text">View
+              More</a>
+          </div>
+        </div>
+      </section>
+      <!-- airing today tv section ends here  -->
+
+      <!-- trending news tv section starts here  -->
+      <section class="trending_news">
+        <div class="wrapper">
+          <h2>trending news</h2>
+          <ul class="slider">
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+            <li>
+              <a href="detail.html" title="Tv Image" class="tv_image">
+                <figure>
+                  <img src="https://via.placeholder.com/175x200" alt="tv image">
+                </figure>
+              </a>
+              <a href="detail.html" title="Tv Name" class="tv_name">Tv Name</a>
+            </li>
+          </ul>
+          <div class="view_more">
+            <a href="viewmore.html?Trending&trending&tv&day" title="View More" class="view_more_text">View More</a>
+          </div>
+        </div>
+      </section>
+      <!-- trending news tv section ends here  -->
+
+    </main>
+    <!-- main ends here -->
+
+    <!-- footer starts here  -->
+    <footer>
+      <div class="wrapper">
+        <a href="homepage.html" title="Movie DB" class="footer_logo"><img src="assets/images/tmdb.svg"
+            alt="MovieDB_logo"></a>
+        <ul>
+          <li class="link facebook">
+            <a href="#FIXME" rel="noopener noreferrer" target="_blank" title="Facebook">facebook</a>
+          </li>
+          <li class="link twitter">
+            <a href="#FIXME" rel="noopener noreferrer" target="_blank" title="Twitter">twitter</a>
+          </li>
+          <li class="link youtube">
+            <a href="#FIXME" rel="noopener noreferrer" target="_blank" title="youtube">youtube</a>
+          </li>
+          <li class="link instagram">
+            <a href="#FIXME" rel="noopener noreferrer" target="_blank" title="Instagram">instagram</a>
+          </li>
+        </ul>
+        <span>copyright 2022</span>
+      </div>
+    </footer>
+    <!-- footer ends here  -->
+  </div>
+  <!-- container ends here   -->
+
+  <!-- script for jquery  -->
+  <script src="assets/vendor/jquery-1.8.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- script for script.js  -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

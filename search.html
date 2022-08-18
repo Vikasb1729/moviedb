@@ -1,0 +1,109 @@
+<!doctype html>
+
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie DB | Search page</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container search-page">
+    <header>
+      <div class="wrapper">
+        <h1>
+          <a href="homepage.html" title="Movie DB"><img src="https://skempin.github.io/reactjs-tmdb-app/images/tmdb.svg"
+              alt="MovieDB_logo"></a>
+        </h1>
+        <div class="search_ctn">
+          <div class="search_input">
+            <form action="search.html" method="get">
+              <input type="text" name="search" placeholder="Search">
+            </form>
+            <a href="#FIXME" title="Close">Close</a>
+          </div>
+          <ul>
+            <li>Search</li>
+          </ul>
+        </div>
+        <div class="menu">
+          <a href="#FIXME" title="Hamburger" class="hamburger">hamburger</a>
+          <nav>
+            <ul>
+              <li>
+                <a href="homepage.html" title="Movie" class="movie">Movie</a>
+              </li>
+              <li>
+                <a href="tvpage.html" title="TV" class="tv">TV</a>
+              </li>
+              <li class="logout">
+                <a href="index.html" title="Logout">Logout</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="search_section">
+        <div class="wrapper">
+          <h2>Results</h2>
+          <ul class="search_result">
+            <li>Search result list</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- main ends here -->
+
+    <!-- footer starts here  -->
+    <footer>
+      <div class="wrapper">
+        <a href="homepage.html" title="Movie DB" class="footer_logo"><img src="assets/images/tmdb.svg"
+            alt="MovieDB_logo"></a>
+        <ul>
+          <li class="link facebook">
+            <a href="#FIXME" rel="noopener noreferrer" target="_blank" title="Facebook">facebook</a>
+          </li>
+          <li class="link twitter">
+            <a href="#FIXME" rel="noopener noreferrer" target="_blank" title="Twitter">twitter</a>
+          </li>
+          <li class="link youtube">
+            <a href="#FIXME" rel="noopener noreferrer" target="_blank" title="youtube">youtube</a>
+          </li>
+          <li class="link instagram">
+            <a href="#FIXME" rel="noopener noreferrer" target="_blank" title="Instagram">instagram</a>
+          </li>
+        </ul>
+        <span>copyright 2022</span>
+      </div>
+    </footer>
+    <!-- footer ends here  -->
+  </div>
+  <!-- container ends here   -->
+
+  <!-- script for jquery  -->
+  <script src="assets/vendor/jquery-1.8.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- script for script.js  -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

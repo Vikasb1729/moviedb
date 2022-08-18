@@ -1,0 +1,72 @@
+<!doctype html>
+
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Movie | Login page</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+
+  <!-- html5shiv aka html5 shim. Supporting HTML5 and CSS for IE browsers less than IE9. -->
+  <!--[if lt IE 9]>  
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+  <![endif]-->
+
+</head>
+
+<body>
+  <!--container start-->
+  <div class="container login-page">
+    <!--header section start-->
+    <header>
+      <div class="wrapper">
+        <figure>
+          <img src="https://skempin.github.io/reactjs-tmdb-app/images/tmdb.svg" alt="MovieDB_logo"> 
+         </figure> 
+      </div>
+    </header>
+    <!--header section start-->
+    <!--main section start-->
+    <main>
+      <section>
+        <h2>Login here</h2>
+        <div class="wrapper">
+          <form action="#FIXME" method="get">
+            <div class="form_group">
+              <input type="email" class="email" placeholder="Email address">
+              <span class="email_display error">error</span>
+            </div>
+            <div class="form_group">
+              <input type="password" class="password" placeholder="Password">
+              <span class="password_display error">error</span>
+            </div>
+            <div class="form_control">
+              <a href="#FIXME" title="Sign In">Sign In</a>
+              <span class="login_display error">error</span>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!--main section end-->
+  </div>
+  <!--container end-->
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
